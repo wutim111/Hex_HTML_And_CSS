@@ -1,0 +1,150 @@
+.Banner{
+    background: url(../images/banner.png)  no-repeat;
+    background-size: cover;
+    height: 390px;
+    display: flex;
+    align-items: center;
+}
+.Banner h2{
+    background: rgba(98, 198, 198, 0.3);
+    padding:30px;
+    width: 100%;
+    font-size: 36px;
+    color: white;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+
+.course_List{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 62px;
+}
+.Course_Item{
+        border: 1px solid;
+        width: 300px;
+        padding: 15px;
+        margin: 10px 0 0 0;
+        text-align: center;
+        box-shadow: 1px 1px 3px #000;
+        border-radius: 5px;
+}
+.Course_Item img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.Course_Item h3{
+    font-size: 26px;
+    line-height: 1.3em;
+    font-weight: bold;
+}
+.Course_Item ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Course_Item p,.Course_Item li {
+    line-height: 1.1em;
+    letter-spacing: 3px;
+}
+
+.Compare{
+    margin-bottom: 62px;
+}
+.Compare h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+
+.Compare table{
+    width: 920px;
+    margin: 0 auto;
+}
+.Compare th{
+    text-align: left;
+    font-weight: bold;
+    padding:10px;
+    background: #f7f7f7;
+}
+.Compare th,.Compare td{
+    vertical-align: top;
+    padding: 10px 20px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+.Compare tr:hover{
+    background: gray;
+    font-weight: bold;
+}
+.Compare .ColorText{
+    color: #01ba8c;
+    font-weight: bold;
+}
+
+
+.Contact{
+    background: linear-gradient(#00664D, #009671);
+    padding: 37px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+.Contact h2{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+}
+.ContactForm{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ContactMessage{
+    display: flex;
+    flex-direction: column;
+}
+.ContactForm #message{
+    border: 0px solid;
+    resize: none;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    width: 460px;
+    height: 280px;
+}
+.ContactInfo{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+label{
+    color: white;
+    line-height: 1.3em;
+    margin: 5px;
+}
+.ContactInfo input{
+    width: 460px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+}
+.ContactForm .Submit{
+    width: 70px;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    background: #00cc98;
+    color: white;
+}
+.ContactForm .Submit:hover{
+    background: #00251A;
+}

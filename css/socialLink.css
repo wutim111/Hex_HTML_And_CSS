@@ -1,0 +1,37 @@
+.warp{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+}
+.socialLink{
+    background: #F6F6F8;
+    display: flex;
+    justify-content: end;
+}
+.socialLink_List{
+    display: flex;
+}
+.socialLink .socialLink_List li{
+    padding:7px 13px 6px 0;
+    position: relative;
+}
+.socialLink ul li:first-child::after{
+    content:'|';
+    position: absolute;
+    color:gray;
+    right: 5px;
+}
+.socialLink ul li a{
+    text-decoration: none;
+}
+.socialLink ul li a:hover{
+    font-weight: bolder;
+}
+.FB{
+    color:  #4267B2;
+}
+.Twitter{
+    color: #1DA1F2;
+}

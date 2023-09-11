@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer h2 a{
+    background: url(../images/footerLogo.png) no-repeat;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 36px;
+    width: 171px;
+}
+.footer li{
+    line-height: 1.3em;
+    margin: 2px;
+    font-weight: bold;
+}
